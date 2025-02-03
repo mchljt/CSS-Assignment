@@ -1,7 +1,7 @@
 //Layout.jsx
 import './globals.css';
 import { Inter } from 'next/font/google';
-import NavBar from './ui/layout-components/NavBar/Navbar'; 
+import NavBar from './ui/layout-components/NavBar/NavBar'; 
 import Footer from './ui/layout-components/Footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });

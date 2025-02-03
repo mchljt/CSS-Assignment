@@ -12,7 +12,7 @@ import styles from './page.module.css';
 import fonts from "../ui/fonts.css" // Import for custom font
 import { Button } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
-import Card from './card/card';
+import Card from './card/Card';
 import { useLocalStorage } from './useLocalStorage';
 import seedrandom from 'seedrandom';
 
