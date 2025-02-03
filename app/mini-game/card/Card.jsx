@@ -1,5 +1,5 @@
 //For mini-game by Tay King Yu, Galen
-import styles from "./card.module.css"
+import styles from "./Card.module.css"
 import Image from "next/image";
 
 export default function Card({ card, handleChoice, flipped, disabled }) {
