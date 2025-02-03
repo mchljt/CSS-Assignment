@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropDown';
 import NavItem from 'react-bootstrap/NavItem';
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import Image from "next/legacy/image";
 
 
