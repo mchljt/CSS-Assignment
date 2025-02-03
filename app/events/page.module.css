@@ -1,0 +1,138 @@
+/* By Teo Hong Rui Freddy */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'LilitaOne', sans-serif;
+}
+
+/* 
+  Banner component 
+*/
+.banner{
+  position: relative;
+  width: auto;
+  height: 85vh; /* Set the viewport height - Accomodate for the actual height of the image overflowing out of the strating viewport, causing the need to scroll*/
+  overflow: hidden;
+  font-family: 'LilitaOne', sans-serif; /*custom font*/
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bannertext{
+  position: absolute;
+  top: 20%;
+  color: #000000;
+  padding: 10px
+}
+
+.bannertext h1{
+  font-family: 'Nougat', sans-serif; /*custom font*/
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.bannertext p{
+  font-family: 'LilitaOne', sans-serif; /*custom font*/
+  font-size: 28px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.whitebox {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 24px;
+  padding: 8px;
+  margin: 20px;
+  background-color: white;
+}
+
+/* 
+  Events component 
+*/
+.events_title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.events_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  background-image: url("https://preview.redd.it/zwqteuxul0d31.jpg?width=1080&crop=smart&auto=webp&s=574b6bd67bcb0f847101850d52e0d3f1a94e7bc8")
+}
+
+.events_item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #FFFFFF;
+}
+
+.events_item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.eventname {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: 'LilitaOne', sans-serif;
+}
+
+.eventmode {
+  font-family: 'LilitaOne', sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.eventinfo_title {
+  font-size: 44px;
+  text-align: center;
+  font-family: 'LilitaOne', sans-serif; /*custom font*/
+}
+
+.mapname{
+  font-family: 'LilitaOne', sans-serif; /*custom font*/;
+}
+
+.eventinfo h2 {
+  font-family:'LilitaOne', sans-serif;
+  font-size: 42px;
+}
+.eventinfo img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.eventinfo {
+  background-color: aliceblue;
+}
+
+.eventMname{
+  font-size: 42px;
+  margin: 10px 0;
+  font-family: 'LilitaOne', sans-serif;
+}
+
+.eventMmode{
+  font-family: 'LilitaOne', sans-serif;
+  font-size: 30px;
+}
+
+.modeImg{
+  transform: scale(0.5);
+}

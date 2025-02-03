@@ -1,0 +1,34 @@
+/* For Memory game by Tay King Yu, Galen*/
+.body {
+    font-family: 'LilitaOne', sans-serif;
+    color:white;
+    background-image: url("../../public/media/brawlersPage-bg-image.svg"); 
+    font-size: 1.5em;
+    text-align:center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+
+}
+.playArea{
+    max-width: 860px;
+       
+}
+.newGameBtn {
+    color: #fff;
+    background-color: #FFD700;
+    border-color: #FFA500; 
+}
+.newGameBtn:hover {
+    color: #fff;
+    background-color: #FFEC8B;
+    border-color: #FFA500; 
+}
+.cardGrid{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}

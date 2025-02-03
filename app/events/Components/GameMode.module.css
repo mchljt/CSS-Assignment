@@ -1,0 +1,177 @@
+/* By Teo Hong Rui Freddy */
+
+.gamemode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  background-color: #ffffff;
+  
+}
+
+.gamemodetitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gamemodes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gamemodetitle h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Nougat', sans-serif;
+}
+
+.item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: 'LilitaOne', sans-serif;
+}
+
+/* Set background colors for each item */
+.item:nth-of-type(1) {
+  background-color: #933dab;
+}
+
+.item:nth-of-type(2) {
+  background-color: #8ca0e0;
+}
+
+.item:nth-of-type(3) {
+  background-color: #e33b50;
+}
+
+.item:nth-of-type(4) {
+  background-color: #d65cd3;
+}
+
+.item:nth-of-type(5) {
+  background-color: #00cfff;
+}
+
+.item:nth-of-type(6) {
+  background-color: #f05031;
+}
+
+.item:nth-of-type(7) {
+  background-color: #81d621;
+}
+
+.item:nth-of-type(8) {
+  background-color: #00cfff;
+}
+
+.item:nth-of-type(9) {
+  background-color: #dc2423;
+}
+
+.item:nth-of-type(10) {
+  background-color: #f7831c;
+}
+
+.item:nth-of-type(11) {
+  background-color: #dc2423;
+}
+
+.item:nth-of-type(12) {
+  background-color: magenta;
+}
+
+.item:nth-of-type(13) {
+  background-color: #dc2423;
+}
+
+
+@media (max-width: 768px) {
+  .gamemode {
+    padding: 20px;
+  }
+}
+
+/* Set background images for each item
+.item:nth-of-type(1) {
+  background-image: url('path/to/image1.jpg');
+}
+
+.item:nth-of-type(2) {
+  background-image: url('path/to/image2.jpg');
+}
+
+.item:nth-of-type(3) {
+  background-image: url('path/to/image3.jpg');
+}
+*/
+
+
+/* Modal styles */
+.eventinfo_title {
+  font-size: 24px;
+  color: #333;
+  font-family: LilitaOne, sans-serif
+}
+
+.eventMname {
+  font-size: 28px;
+  color: #333;
+  font-family: LilitaOne, sans-serif;
+}
+
+.eventMmode {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+  font-family: LilitaOne, sans-serif;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.close {
+  color: #fff;
+}
+
+/* Additional styles for specific sections */
+.eventinfo h2 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 5px;
+  font-family: Nougat, sans-serif
+}

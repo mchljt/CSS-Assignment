@@ -1,0 +1,33 @@
+/* page.module.css / By Tay King Yu, Galen*/
+.Container{
+  position: relative;
+  background-image: url("../public/media/home-page-background.png");/* Background image sourced from https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fiapqmzd3zu721.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D7508eff6f99e455258950e07bf0560e9a039c384
+  background-size: cover; */
+  font-family: 'LilitaOne', sans-serif; /*custom font*/
+  color: white;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.phonepos{
+  position: relative;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Allow the height to adjust based on the aspect ratio */
+}
+.listHeader{
+  font-size: 50px;
+}
+.listItem{
+  font-size: 35px;
+}
+
+
+
+
+
+

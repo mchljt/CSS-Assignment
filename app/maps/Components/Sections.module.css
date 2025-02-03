@@ -1,0 +1,423 @@
+/* By Teo Hong Rui Freddy */
+
+/* Shared designs styles */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.maps_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0.5, 0.5, 0.5, 0.5);
+  width: calc(33.33% - 20px);
+  background-color: #fbfbf9;
+}
+
+.maps_item img {
+  display: block;
+  height: 500px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+/* Sections Customisations */
+
+/* Gem Grab */
+.GemGrabheader {
+  height:70px;
+  background-color: #933dab;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.GemGrabheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.GemGrabmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #933dab;
+  color: #ffffff;
+}
+
+
+/* BrawlBall */
+.BrawlBallheader {
+  height:70px;
+  background-color: #8ca0e0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.BrawlBallheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.BrawlBallmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #8ca0e0;
+  color: #ffffff;
+}
+
+
+/* Hot Zone */
+.HotZoneheader {
+  height:70px;
+  background-color: #e33b50;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.HotZoneheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.HotZonemaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #e33b50;
+  color: #ffffff;
+}
+
+
+/* Heist */
+.Heistheader {
+  height:70px;
+  background-color: #d65cd3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Heistheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.Heistmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #d65cd3;
+  color: #ffffff;
+}
+
+
+/* Bounty */
+.Bountyheader {
+  height:70px;
+  background-color: #00cfff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Bountyheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.Bountymaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #00cfff;
+  color: #ffffff;
+}
+
+/* Siege */
+.Siegeheader {
+  height:70px;
+  background-color: #f05031;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Siegeheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.Siegemaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #f05031;
+  color: #ffffff;
+}
+
+/* Showdown */
+.Showdownheader {
+  height:70px;
+  background-color: #81d621;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Showdownheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.Showdownmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #81d621;
+  color: #ffffff;
+}
+
+/* Wipeout */
+.Wipeoutheader {
+  height:70px;
+  background-color: #00cfff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Wipeoutheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.Wipeoutmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #00cfff;
+  color: #ffffff;
+}
+
+
+/* Big Game */
+.BigGameheader {
+  height:70px;
+  background-color: #dc2423;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.BigGameheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  color: #ffffff;
+}
+
+.BigGamemaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: LilitaOne, sans-serif;
+  background-color: #dc2423;
+  color: #ffffff;
+}
+
+
+/* Knockout */
+.Knockoutheader {
+  height:70px;
+  background-color: #f7831c;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Knockoutheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'LilitaOne', sans-serif;
+  color: #ffffff;
+}
+
+.Knockoutmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f7831c;
+  color: #ffffff;
+  font-family: LilitaOne, sans-serif;
+}
+
+/* Boss Fight */
+.BossFightheader {
+  height:70px;
+  background-color: #dc2423;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.BossFightheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: LilitaOne, sans-serif;
+}
+
+.BossFightmaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: #dc2423;
+  color: #ffffff;
+  font-family: LilitaOne, sans-serif;
+}
+
+
+/* Robo Rumble */
+.RoboRumbleheader {
+  height:70px;
+  background-color: #ffdd00;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.RoboRumbleheader h1 {
+  font-size: 36px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: LilitaOne, sans-serif;
+}
+
+.RoboRumblemaps_name {
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffdd00;
+  color: #ffffff;
+  font-family: LilitaOne, sans-serif;
+}
+

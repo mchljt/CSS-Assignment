@@ -1,0 +1,11 @@
+/* By Tay King Yu, Galen */
+.navbar {
+    background: linear-gradient(to right, #002AFF, #2680EB, #76D6FF);
+    font-family: 'LilitaOne', sans-serif; /*custom font*/
+}
+
+.removelink{
+    text-decoration: none;
+}
+
+

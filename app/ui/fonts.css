@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "LilitaOne";
+    src: url('../../public/fonts/Lilita_One/LilitaOne-Regular.ttf');
+  }
+
+.lilitaone{
+font-family: "LilitaOne";
+}

@@ -1,0 +1,59 @@
+/* page.module.css/ CSS file for brawlers page by Michael Joseph Tjokro*/
+.Container {
+  font-family: 'LilitaOne', sans-serif;
+  color: black;
+  background-image: url("../../public/media/brawlersPage-bg-image.svg"); 
+  z-index: 0;
+  overflow: hidden;
+  text-align:center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+.brawlers_container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  z-index: 1;
+  overflow: auto;
+}
+
+.brawler_item {
+  margin: 10px; /* Adjust as needed for spacing between items */
+  text-align: center;
+}
+
+.brawler_item:hover{
+  transform:scale(108%);
+  filter: brightness(80%);
+}
+
+.brawler_name{
+  font-size: 30px;
+}
+
+.brawlerinfo_title{
+  font-family: 'LilitaOne', sans-serif;
+}
+
+.brawlerinfo{
+  background-color: peachpuff;
+  font-family: 'LilitaOne', sans-serif;
+}
+
+.brawlerinfo_header{
+  font-family: 'LilitaOne', sans-serif;;
+}
+
+
+.StarPowerandGadgetImages{
+  height: 150px;
+  width: 150px;
+}
